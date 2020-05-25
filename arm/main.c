@@ -39,7 +39,7 @@ list* newList(){
 	return tmp;
 }
 
-list* addFirst(list* l1, uint32_t value){
+void addFirst(list* l1, uint32_t value){
 	nodo* tmp = l1->first;
 
 	tmp = malloc(sizeof(nodo));
